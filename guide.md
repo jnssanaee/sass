@@ -25,9 +25,11 @@
 - 변환 사이트 <br>
   http://csstoss.com/
 
-## Sass Convention
+-
+
+#### Sass Convention
 ##### 경로 및 파일명
-/resources/scss/scss_a.scss (파일찾기 쉽게하기 위해 scss_ 접두사 사용)
+/resources/scss/scss_a.scss (파일찾기 쉽게 scss_ 접두사 사용)
 ```bash
   sass --watch --style compressed scss_a.scss:../css/a.css
   ```
