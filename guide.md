@@ -33,7 +33,9 @@
 ```bash
   sass --watch --style compressed scss_a.scss:../css/a.css
   ```
-##### 들여쓰기는 2칸
+-
+##### 들여쓰기
+들여쓰기는 2칸으로 한다.
 ```sass
 // X
 .box{
@@ -46,6 +48,23 @@
 }
 ```
 -
+##### 띄어쓰기
+- 선택자, 괄호 띄어쓰기
+- 속성, 값 띄어쓰기
+```sass
+// X
+body{
+  margin:0;
+  padding:0;
+}
+  
+// O
+body {
+  margin: 0;
+  padding: 0;
+}
+```
+.
 ##### 주석
 ```sass
 // X
